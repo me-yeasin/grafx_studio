@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Grafx_Studio</string>
+
+    <string name="drawer_page_home">Home Page</string>
+    <string name="drawer_page_service">Service Page</string>
+    <string name="drawer_page_portfolio">Portfolio Page</string>
+    <string name="drawer_page_testimonial_review">Testimonial And Review</string>
+    <string name="drawer_page_subscription_pricing">Subscription And Pricing</string>
+    <string name="drawer_page_support">Support</string>
+</resources>
