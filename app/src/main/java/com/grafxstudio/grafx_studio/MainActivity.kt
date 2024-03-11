@@ -9,7 +9,9 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.grafxstudio.grafx_studio.config.root_navigation.navigation.RootNavigation
 import com.grafxstudio.grafx_studio.root_view_models.ThemeViewModel
 import com.grafxstudio.grafx_studio.ui.theme.Grafx_StudioTheme
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
