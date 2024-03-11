@@ -73,4 +73,9 @@ dependencies {
     // Coil -> Render Network Image
     implementation("io.coil-kt:coil-compose:2.6.0")
 
+    //View Model
+    val lifeCyecleVersion = "2.7.0"
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifeCyecleVersion")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:$lifeCyecleVersion")
+
 }
