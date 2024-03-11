@@ -21,13 +21,17 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
+import androidx.hilt.navigation.compose.hiltViewModel
+import androidx.lifecycle.viewmodel.compose.viewModel
 import com.grafxstudio.grafx_studio.R
 import com.grafxstudio.grafx_studio.config.font.logoTextStyle
+import com.grafxstudio.grafx_studio.features.home.view_model.HomeViewModel
 import com.grafxstudio.grafx_studio.features.home.widgets.AutoImageSlider
 import com.grafxstudio.grafx_studio.widgets.ItemHorizontalListLayout
 
 @Composable
 fun HomePage(rootScrollState: ScrollState, onDrawerButtonClick: () -> Unit = {}) {
+    val homeViewModel : HomeViewModel = hiltViewModel()
     // Dummy Images -> Replace with real image
     val images: List<String> = listOf(
         "https://images.unsplash.com/photo-1626251851903-1143b5c6f057?q=80&w=1892&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
